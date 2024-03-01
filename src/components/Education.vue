@@ -27,12 +27,10 @@ const textColorClass = computed(() => useAppStore().getTextColorClass);
     <div class="overflow-hidden relative dark:text-white flex flex-col gap-8">
         <div class="bg-white/80 dark:bg-zinc-800/20 p-6 md:p-8 rounded-sm" v-for="education in data">
             <div class="flex-col gap-2 flex-grow">
-                <a :href="education.url" target="_blank" >
                     <h3 class="text-3xl font-semibold uppercase tracking-wider flex">
                         {{ education?.institution }} 
                         
                     </h3>
-                </a>
                 <ul>
                     <li>{{ education.area }}
                     </li>
