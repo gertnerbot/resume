@@ -1,7 +1,9 @@
 # Vue 3 JSON Resume: [Live Demo](https://lgrimsley.com)
 
 ### Site Details
-This sites utilizes AWS Code Build, Code Pipeline, S3
+This sites utilizes AWS Code Build, Code Pipeline, S3, CloudFront, Route 53 and Certificate Manager
+
+Domain Hosted by Namecheap.  Certificate verified through DNS Verification.
 
 ## Project Setup
 
