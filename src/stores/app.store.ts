@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { pageview } from 'vue-gtag';
-import { type Page, type AppState, type AppColor } from '../types/app';
+import { type Page, type AppState, type AppColor, } from '../types/app';
 import { type Resume } from '../types/resume';
 import colors from '@/colors';
 import Experience from '@/components/Experience.vue';
@@ -67,6 +67,7 @@ export const useAppStore = defineStore('app', {
                     component: Experience
                 });
             }
+
             if (resume.projects.length > 0) {
                 pages.push({
                     key: 'projects',
@@ -91,14 +92,14 @@ export const useAppStore = defineStore('app', {
                     component: References
                 });
             }
-            if (resume.recommendations.length > 0) {
-                pages.push({
-                    key: 'recommendations',
-                    label: 'Recommendations',
-                    data: resume.recommendations,
-                    component: Recommendations
-                });
-            }
+            // if (resume.recommendations.length > 0) {
+            //     pages.push({
+            //         key: 'recommendations',
+            //         label: 'Recommendations',
+            //         data: resume.recommendations,
+            //         component: Recommendations
+            //     });
+            // }
             this.setAvailablePages(pages);
         },
         setActivePageFromKey(key: string) {
