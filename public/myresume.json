@@ -39,7 +39,13 @@
         "location": "Remote",
         "positions": [
           {
-            "position": "Sr. Systems Engineer",
+            "position": "Principal Engineer",
+            "startDate": "2024-04",
+            "endDate": "0000-00",
+            "summary": ["- Developed new product utilizing AWS services and CDK deployment", "- Design and Contruct RESTful APIs, user management contructs and backend systems"]
+          },
+          {
+            "position": "Sr. Systems Engineer (Architecture)",
             "startDate": "2021-01",
             "endDate": "2024-03",
             "summary": ["- Provide multidisciplinary technical guidance; enhancing system architecture and engineering processes."," - Lead cross-functional teams in executing new feature development across R&D and Operations departments. - Design, engineer, and deploy innovative tools for software and OS maintenance, improving product lifecycle management.    - Offer ongoing support and expertise in the operation of new products and features, ensuring optimal performance. "]

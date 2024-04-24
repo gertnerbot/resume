@@ -13,6 +13,8 @@ const props = defineProps({
 const formatDate = (dateString: string) => {
     if (!dateString) return '';
 
+    else if (dateString == "0000-00") return 'Present';
+    
     const [year, month] = dateString.split('-');
     const date = new Date(Number(year), Number(month) - 1);
     return date.toLocaleString('default', { month: 'short', year: 'numeric' }); // e.g., 'May 2022'
