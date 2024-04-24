@@ -48,18 +48,17 @@ onUnmounted(() => {
 </script>
 
 <template>
+
     <div class="bg-white/80 dark:bg-zinc-800/20 md:rounded-tr md:rounded-tl dark:text-white overflow-hidden relative">
         <div :class="gradientClass" class="h-32 w-full flex-col items-end flex justify-between transition duration-500 ease-in-out">
             <span class="border border-white text-white font-semibold dark:border-gray-200 dark:text-gray-200 px-2 py-1 text-xs rounded mr-3 mt-3">{{ basics?.status }}</span>
             <ul class="flex space-x-4 w-full self-bottom justify-end mr-6 mb-3 lg:mr-3 xl:mr-8">
                 <li>
                     <a :href="`mailto:${basics?.email}`" class="text-lg flex items-center gap-1 font-semibold hover:animate-pulse" alt="Email Me">
-                        <Icon icon="entypo:email" width="32px" class="text-gray-100 hover:text-white" />
                     </a>
                 </li>
                 <li v-for="profile in basics?.profiles">
-                    <a :href="profile.url" target="_blank" class="hover:animate-pulse">
-                        <Icon :icon="profile.icon" width="32px" class="text-gray-100 hover:text-white " :title="profile.network" />
+                    <a :href="profile.url" target="_blank" class="hover:animate-pulse" alt="LinkedIn Profile">
                     </a>
                 </li>
             </ul>
@@ -70,6 +69,13 @@ onUnmounted(() => {
             <div class="flex flex-col w-full items-end mb-6 xl:pr-8 lg:pr-1 pr-6 z-3 relative">
                 <div class="xl:text-2xl lg:text-xl text-2xl  mb-1 font-bold text-zinc-800 dark:text-zinc-100 tracking-wider">{{ basics?.name }}</div>
                 <div class="xl:text-xl lg:text-md text-lg text-gray-600 dark:text-gray-300 tracking-wider">{{ basics?.label }}</div>
+                <div class="xl:text-l lg:text-md text-lg text-gray-600 dark:text-gray-300 tracking-wider">
+                    <ul v-for="profile in basics?.profiles">
+                    <a :href="profile.url" target="_blank">
+                        {{ profile.network}}
+                    </a>
+        </ul>   
+                </div>
             </div>
             <button ref="downloadButton"  @mouseover="buttonHover = true" @mouseleave="buttonHover = false" :class="[gradientClass, gradientHoverClass]" class="w-full justify-center flex group text-white items-center mt-2 py-4 md:rounded-br md:rounded-bl font-semibold relative" @click="$emit('download-resume')">
                 <span  :style="buttonHover ? moveRightStyle : ''" ref="downloadText" class="flex gap-2 items-center transition ease-in-out delay-150 tracking-wider">

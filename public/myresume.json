@@ -1,11 +1,11 @@
 {
     "basics": {
       "name": "Philip Chad Miracle",
-      "label": "Sr. Systems Engineer",
+      "label": "Principal Software Engineer",
       "email": "miraclewireless@gmail.com",
       "phone": "2702060283",
       "url": "https://cmiracle.tech",
-      "resume_url": "",
+      "resume_url": "PhilipMiracleResume.pdf",
       "summary": "Results-driven and highly skilled DevOps and Software Engineering professional with extensive experience in cloud technologies, containerized software solutions, and RESTful API development. Adept at designing, architecting, and deploying robust systems to improve application accuracy, stability, and overall performance. Proficient in a wide range of programming languages and technologies, with a proven ability to adapt to new technologies quickly. Possess strong leadership and communication skills, able to collaborate effectively with cross-functional teams and stakeholders. Committed to driving innovation and delivering high-quality solutions to meet organizational objectives.",
       "status": "Employed",
       "information": {
@@ -23,7 +23,7 @@
           "icon": "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
         }
       ],
-      "image": "https://media.licdn.com/dms/image/C4E03AQErrGO7eQGjIA/profile-displayphoto-shrink_800_800/0/1553609423203?e=1713398400&v=beta&t=y0vMoAq_H4WNEZdKsXSjuY_oIwkcr4Aoc2KabCAViSc"
+      "image": "avatar.png"
     },
     "work": [
       {

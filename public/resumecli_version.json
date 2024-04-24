@@ -1,0 +1,144 @@
+{
+    "basics": {
+      "name": "Philip Chad Miracle",
+      "label": "Principal Software Engineer",
+      "image": "https://media.licdn.com/dms/image/C4E03AQErrGO7eQGjIA/profile-displayphoto-shrink_800_800/0/1553609423203?e=1719446400&v=beta&t=3ATCo8_nEhh3yezmJRrRPSg9TGm9_2QyYnPaWiQN8jI",
+      "email": "miraclewireless@gmail.com",
+      "phone": "2702060283",
+      "url": "https://cmiracle.tech",
+      "resume_url": "",
+      "summary": "Results-driven and highly skilled DevOps and Software Engineering professional with extensive experience in cloud technologies, containerized software solutions, and RESTful API development. Adept at designing, architecting, and deploying robust systems to improve application accuracy, stability, and overall performance. Proficient in a wide range of programming languages and technologies, with a proven ability to adapt to new technologies quickly. Possess strong leadership and communication skills, able to collaborate effectively with cross-functional teams and stakeholders. Committed to driving innovation and delivering high-quality solutions to meet organizational objectives.",
+      "status": "Employed",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "US",
+        "region": "Kentucky"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "chad-miracle",
+          "url": "https://www.linkedin.com/in/chad-miracle-07a731105/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Alvaria",
+        "position": "Principal Engineer",
+        "summary": "- Developed new product utilizing AWS services and CDK deployment; - Design and Contruct RESTful APIs, user management contructs and backend systems",
+        "url": "https://www.alvaria.com",
+        "startDate": "2024-04-01",
+        "endDate": "Present",
+        "highlights": [
+          "Architecture and Proof of Concept development",
+          "Architected and Developed net-new microservices for internal use",
+          "Develop Best Practices for newly architected services"
+      ]},
+        {
+          "name":"Alvaria",
+          "position": "Sr. Systems Engineer (Architecture)",
+          "summary": "Proof of Concept engineer under Architecture (R&D).",
+          "startDate": "2021-01",
+          "endDate": "2024-03",
+          "highlights": [
+            "Provide multidisciplinary technical guidance; enhancing system architecture and engineering processes.",
+            "Lead cross-functional teams in executing new feature development across R&D and Operations departments.",
+            "Design, engineer, and deploy innovative tools for software and OS maintenance, improving product lifecycle management.",
+            "Offer ongoing support and expertise in the operation of new products and features, ensuring optimal performance."
+      ]},
+        {
+          "name":"Alvaria",
+          "position": "Sr. Customer Care Engineer (Advanced)",
+          "summary": "Lead Advanced Customer Care support for Alvaria's call center technologies",
+          "startDate": "2012-04",
+          "endDate": "2020-12",
+          "highlights": [
+            "Develop and implement automation scripts, enhancing efficiency and reliability of testing procedures.",
+            "Maintain test environments in AWS, leveraging cloud infrastructure for scalable solutions.",
+            "Conduct troubleshooting across various domains, including networking, databases, and VOIP, to resolve complex issues.",
+            "Collaborate with internal and external stakeholders to provide effective communication and problem resolution.",
+            "Document technical issues and solutions for knowledge sharing and future reference, contributing to a robust knowledge base."
+        ]},
+        {
+          "name": "Softel",
+          "position": "Independent Contractor",
+          "summary":"Laid the groundwork for a large corporation to switch to SIP communication",
+          "startDate": "2012-01",
+          "endDate": "2012-04",
+          "highlights": [
+            "Provide multidisciplinary technical guidance; enhancing system architecture and engineering processes.",
+            "Lead cross-functional teams in executing new feature development across R&D and Operations departments.",
+            "Design, engineer, and deploy innovative tools for software and OS maintenance, improving product lifecycle management.",
+            "Offer ongoing support and expertise in the operation of new products and features, ensuring optimal performance."
+        ]}
+    ],
+    "projects": [
+      {
+        "name": "Non-Disruptive Upgrades",
+        "startDate": "2020-03-01",
+        "endDate":"2022-12-20",
+        "description": "Objective of the project is to architect, design and implement a non-disruptive upgrades in a hybrid cloud and pseudo-cloud(software designed for premise usage in the cloud) environment",
+        "highlights": [
+          "Architected a lightweight K8s microservice",
+          "Designed, coded and implemented the microservice",
+          "Ingegrate microservice into existing technologies (Jenkins, Ansible, etc)",
+          "Technologies utilized: Python, FastAPI, RESTful API, Celery, Kubernetes"
+        ]},
+      {
+        "name": "MFA Enablement",
+        "description": "Architect MFA into our production, customer-facing environment",
+        "startDate":"2023-03-15",
+        "endDate":"2023-11-01",
+        "highlights": [
+          "Investigate any all potential security vulnerabilities.",
+          "POC a variety of MFA 3rd party technologies; decide upon a vendor",
+          "Outline Requirement documents",
+          "Ensure engineers remain on track and within scope of project",
+          "Provite necessary KT's to Operations and Support"
+        ]}
+    ],
+    "education": [
+      {
+        "institution": "Murray State University",
+        "area": "Bachelor's of Science",
+        "studyType": "Telecommunications Systems Management",
+        "startDate": "2008-08",
+        "endDate": "2012-12",
+        "score": "3.8",
+        "url": "https://www.murraystate.edu/"
+      }
+    ],
+    "references": [
+      {
+        "name": "Can Provide Upon Request",
+        "position": "",
+        "company": "",
+        "email": "",
+        "phone": "",
+        "relationship": "",
+        "reference_type": ""
+      }
+    ],
+    "recommendations": [
+      {"name":"Avaiable Upon Request"}
+    ],
+    "skills": [{
+      "name":"Backend Development",
+      "level": "Intermediate/Expert",
+      "keywords": ["Jenkins", "Ansible", "Docker", "Kubernetes", "AWS CDK"]
+    },
+    {
+      "name": "Software Development",
+      "level":"Intermediate/Expert",
+      "keywords": ["Python", "Groovy", "SQL", "Powershell","Bash(Shell)","Javascript"]
+    },
+    {
+      "name": "Cloud Technologies",
+      "level": "Intermediate to High",
+      "keywords": ["AWS", "Github", "Datadog","SumoLogic", "Splunk", "LaunchDarkly"]
+    }  
+    ]
+  }

@@ -41,6 +41,16 @@ VITE_GA_ID="G-XXXXXXXXXX"
 Replace `"path/to/resume.json"` with the actual path to your JSON resume file.
 Replace `"G-XXXXXXXXXX"` with your Google Analytics Measurement ID (Optional)
 
+### Pushing to S3 if not Using CodePipeline
+C:\Program Files\Amazon\AWSCLIV2>aws s3 cp --recursive D:\_DevWork\resume\dist\ s3://cmiracletech
+
+### Building JSON Resume
+npm install -g resume-cli
+npm install jsonresume-theme-elegant
+resume export resume.pdf --theme elegant --resume ./public/myresume.json
+
+This is the resume schema this CLI is wanting.  It differs greatly from the website: https://jsonresume.org/schema/  
+
 
 ### JSON Resume Structure
 
@@ -59,8 +69,8 @@ Create a .json file with your resume data using this format.
     "resume_url": "URL to downloadable resume",
     "summary": "Brief professional summary",
     "status": "Current professional status",
-    "information": {
-      "location": "City, State",
+    "location": {
+      "address": "City, State",
       "yearsOfExperience": "Years of experience",
       "availability": "Availability status",
       "relocation": "Relocation preference",
@@ -163,3 +173,4 @@ Create a .json file with your resume data using this format.
 ```
 
 Ensure your resume data conforms to this structure for proper rendering in the application.
+
