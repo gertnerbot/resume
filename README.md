@@ -42,7 +42,7 @@ Replace `"path/to/resume.json"` with the actual path to your JSON resume file.
 Replace `"G-XXXXXXXXXX"` with your Google Analytics Measurement ID (Optional)
 
 ### Pushing to S3 if not Using CodePipeline
-C:\Program Files\Amazon\AWSCLIV2>aws s3 cp --recursive D:\_DevWork\resume\dist\ s3://cmiracletech
+C:\Program Files\Amazon\AWSCLIV2aws s3 cp D:\_DevWork\resume\dist\ s3://cmiracletech --recursive
 
 ### Building JSON Resume
 npm install -g resume-cli
