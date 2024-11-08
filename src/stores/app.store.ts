@@ -58,7 +58,7 @@ export const useAppStore = defineStore('app', {
             }
         },
         setPagesFromResume(resume: Resume) {
-            let pages: Page[] = [];
+            const pages: Page[] = [];
             if (resume.work.length > 0) {
                 pages.push({
                     key: 'experience',

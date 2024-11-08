@@ -41,8 +41,19 @@ VITE_GA_ID="G-XXXXXXXXXX"
 Replace `"path/to/resume.json"` with the actual path to your JSON resume file.
 Replace `"G-XXXXXXXXXX"` with your Google Analytics Measurement ID (Optional)
 
+
+### Publishing new build
+npm run build
+
+Then push to S3
+
 ### Pushing to S3 if not Using CodePipeline
-C:\Program Files\Amazon\AWSCLIV2aws s3 cp D:\_DevWork\resume\dist\ s3://cmiracletech --recursive
+In Command Line not Powershell
+cd to C:\Program Files\Amazon\AWSCLIV2\
+aws s3 cp D:\_DevWork\resume\dist\ s3://cmiracletech --recursive
+
+Updating Resume Only
+aws s3 cp D:\_DevWork\resume\dist\myresume.json s3://cmiracletech/myresume.json
 
 ### Building JSON Resume
 npm install -g resume-cli
@@ -174,3 +185,9 @@ Create a .json file with your resume data using this format.
 
 Ensure your resume data conforms to this structure for proper rendering in the application.
 
+### Change Log
+11/8/2024
+ - The https://trial.mobiscroll.com/events/?vers=5 under src/views/Event.vue and DateTime.vue has expired.
+ - Found that it's not used.
+ - Commented out import DateTime from '../views/DateTime.vue and import Event from '../views/Event.vue in src\router\index.ts
+ 

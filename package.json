@@ -13,7 +13,11 @@
     "export": "resume export resume.pdf --theme elegant --resume ./public/resumecli_version.json"
   },
   "dependencies": {
+    "@mobiscroll/vue": "npm:@mobiscroll/vue-trial@^5.29.2",
     "jsonresume-theme-elegant": "^1.16.1",
+    "mobiscroll": "^3.0.0-beta6",
+    "moment-timezone": "^0.5.45",
+    "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.1.7",
     "vue": "^3.3.4",
     "vue-gtag": "^2.0.1",
